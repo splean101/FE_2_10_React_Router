@@ -20,7 +20,7 @@ h1,h2,h3,p{margin: 0;}
 }
 
 .posts-body{
-  width: 820px;
+  
   margin: 0 0 0 calc(50% - 250px) ;
 }
 
