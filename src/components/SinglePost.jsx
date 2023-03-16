@@ -13,7 +13,7 @@ const SinglePost = () => {
             const parsedData = await data.json();
             if (!parsedData.id) { 
                 console.log('not ID');
-                navigate('/post');
+                navigate('/posts');
                 return;
                }
             setPost(parsedData);            
@@ -35,4 +35,3 @@ const SinglePost = () => {
 }
 
 export default SinglePost
-
